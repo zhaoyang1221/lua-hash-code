@@ -1,17 +1,16 @@
 package = "hash-code"
 version = "0.1.0-1"
 source = {
-  url = "git://github.com/edubart/lua-hasher.git",
+  url = "git://github.com/zhaoyang1221/lua-hash-code.git",
   tag = "v0.1.0"
 }
 description = {
-  summary = "A simple library for hashing implemented in C",
+  summary = "A simple library for hashing code in java implemented in C++",
   detailed = [[
-    A small library with hash and encoding functions implemented in C. Currently supports
-    blake2b hashing and base58 encode/decode.
+    A small library with hash code in java string implemented in C++.
   ]],
-  homepage = "https://github.com/edubart/lua-hasher",
-  license = "MIT"
+  homepage = "https://github.com/zhaoyang1221/lua-hash-code",
+  license = "Apache License"
 }
 dependencies = {
   "lua >= 5.1",
