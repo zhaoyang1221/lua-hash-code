@@ -1,4 +1,5 @@
-LUAINC=/usr/local/openresty/luajit/include/luajit-2.1/
+#LUAINC=/usr/local/openresty/luajit/include/luajit-2.1/
+LUAINC=$(LUA_INCDIR)
 LUAEXE=luajit
 CC=g++ -lstdc++
 CFLAGS=-Wall -Wextra -O2 -I$(LUAINC) -I./src/
@@ -7,7 +8,10 @@ LIBNAME=hash_code
 SRCS=l_hash_code.cpp src/hash_code.h src/hash_code.cpp
 ROCKSPEC=rocks/hash-code-0.1.0-1.rockspec
 
+
 all: $(LIBNAME).so
+
+build: $(LIBNAME).so
 
 test: $(LIBNAME).so
 	$(LUAEXE) test.lua
