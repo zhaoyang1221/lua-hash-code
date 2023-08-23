@@ -6,7 +6,7 @@ CFLAGS=-Wall -Wextra -O2 -I$(LUAINC) -I./src/
 LDFLAGS=-shared -fPIC
 LIBNAME=hash_code
 SRCS=l_hash_code.cpp src/hash_code.h src/hash_code.cpp
-ROCKSPEC=rocks/hash-code-0.1.0-1.rockspec
+ROCKSPEC=rocks/hash-code-0.1.1-1.rockspec
 
 
 all: $(LIBNAME).so

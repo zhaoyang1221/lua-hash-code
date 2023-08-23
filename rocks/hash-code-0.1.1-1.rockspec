@@ -1,8 +1,8 @@
 package = "hash-code"
-version = "0.1.0-1"
+version = "0.1.1-1"
 source = {
   url = "git://github.com/zhaoyang1221/lua-hash-code.git",
-  tag = "v0.1.0"
+  tag = "v0.1.1"
 }
 description = {
   summary = "A simple library for hashing code in java implemented in C++",
