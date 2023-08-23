@@ -18,4 +18,5 @@ do
     assert(hash_code.hash_code('哈哈哈，你好') == -2123919007)
     assert(hash_code.hash_code('哈哈哈，你好') == -2123919007)
     assert(hash_code.hash_code('哈哈哈，你好') == -2123919007)
+    print("all test cases pass!")
 end
