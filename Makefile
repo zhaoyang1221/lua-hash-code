@@ -11,7 +11,9 @@ ROCKSPEC=rocks/hash-code-0.1.1-1.rockspec
 
 all: $(LIBNAME).so
 
-build: $(LIBNAME).so
+build:
+	$(MAKE) clean
+	$(MAKE) $(LIBNAME).so
 
 test: $(LIBNAME).so
 	$(LUAEXE) test.lua

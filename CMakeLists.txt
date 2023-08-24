@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
-project(hash_code)
+project(lua_hash_code)
 
 set(CMAKE_CXX_STANDARD 11)
 include_directories(/usr/local/openresty/luajit/include/luajit-2.1)
