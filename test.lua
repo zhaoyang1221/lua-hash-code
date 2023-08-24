@@ -1,6 +1,6 @@
 local hash_code = require 'hash_code'
 assert(type(hash_code) == 'table')
-assert(hash_code.VERSION == 'hash-code 0.1.1')
+assert(hash_code.VERSION == 'hash-code 0.1.2')
 assert(hash_code.hash_code)
 
 do

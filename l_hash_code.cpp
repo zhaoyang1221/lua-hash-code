@@ -4,7 +4,7 @@
 #include <lua.hpp>
 #include "src/hash_code.h"
 
-#define VERSION	"hash-code 0.1.1"
+#define VERSION	"hash-code 0.1.2"
 
 /* compability with lua 5.1 */
 #if LUA_VERSION_NUM <= 501
